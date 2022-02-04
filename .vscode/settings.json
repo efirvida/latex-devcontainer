@@ -1,0 +1,46 @@
+{
+  // General settings
+  "files.eol": "\n",
+  "editor.wordWrap": "bounded",
+  "files.associations": {
+    "*.tex": "latex"
+  },
+  "editor.formatOnSave": true,
+  // Latex settings
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.clean.subfolder.enabled": true,
+  "latex-workshop.chktex.enabled": true,
+  "latex-workshop.latex.outDir": "%DIR%",
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux",
+    "*.bbl",
+    "*.bcf",
+    "*.blg",
+    "*.idx",
+    "*.ind",
+    "*.lof",
+    "*.lot",
+    "*.out",
+    "*.toc",
+    "*.acn",
+    "*.acr",
+    "*.alg",
+    "*.glg",
+    "*.glo",
+    "*.gls",
+    "*.fls",
+    "*.fdb_latexmk",
+    "*.snm",
+    "*.synctex(busy)",
+    "*.synctex.gz(busy)",
+    "*.synctex.gz",
+    "*.run.xml",
+    "*.nav",
+    "*.vrb",
+    "*.ist",
+    "*.tdo",
+    "*.xwm",
+    "indent.log"
+  ],
+  "ltex.language": "es"
+}
