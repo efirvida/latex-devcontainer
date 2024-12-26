@@ -1,0 +1,115 @@
+{
+        "[latex]": {
+                "files.autoSave": "onWindowChange",
+                "files.encoding": "utf8",
+                "editor.rulers": [
+                        90
+                ],
+                "editor.wordWrapColumn": 90,
+                "editor.wordWrap": "wordWrapColumn"
+        },
+        "files.exclude": {
+                "**/*.aux": true,
+                "**/*.bbl": true,
+                "**/*.bcf": true,
+                "**/*.blg": true,
+                "**/*.brf": true,
+                "**/*.fdb_latexmk": true,
+                "**/*.fls": true,
+                "**/*.glg": true,
+                "**/*.glo": true,
+                "**/*.gls": true,
+                "**/*.gz": true,
+                "**/*.idx": true,
+                "**/*.ilg": true,
+                "**/*.ind": true,
+                "**/*.ist": true,
+                "**/*.lof": true,
+                "**/*.log": true,
+                "**/*.lot": true,
+                "**/*.nlo": true,
+                "**/*.out": true,
+                "**/*.pdf": true,
+                "**/*.pyg": true,
+                "**/*.run": true,
+                "**/*.tdo": true,
+                "**/*.thm": true,
+                "**/*.toc": true,
+                "**/*.xwm": true
+        },
+        "editor.formatOnSave": true,
+        // Latex settings
+        "latex-workshop.view.pdf.invert": 1,
+        "latex-workshop.latex.clean.method": "glob",
+        "latex-workshop.latex.clean.fileTypes": [
+                "*.acn",
+                "*.acr",
+                "*.alg",
+                "*.aux",
+                "*.bbl",
+                "*.bcf",
+                "*.blg",
+                "*.brf",
+                "*.fdb_latexmk",
+                "*.fls",
+                "*.glg",
+                "*.glo",
+                "*.gls",
+                "*.idx",
+                "*.ilg",
+                "*.ind",
+                "*.ist",
+                "*.lof",
+                "*.log",
+                "*.lot",
+                "*.nav",
+                "*.nlo",
+                "*.nls",
+                "*.out",
+                "*.run.xml",
+                "*.snm",
+                "*.synctex.gz",
+                "*.synctex.gz(busy)",
+                "*.synctex(busy)",
+                "*.tdo",
+                "*.toc",
+                "*.vrb",
+                "*.xwm"
+        ],
+        "ltex.language": "es",
+        "editor.fontSize": 18,
+        "latex-workshop.latex.tools": [
+                {
+                        "args": [
+                                "-synctex=1",
+                                "-interaction=nonstopmode",
+                                "-file-line-error",
+                                "%DOC%"
+                        ],
+                        "command": "pdflatex",
+                        "name": "pdflatex"
+                }
+        ],
+        "latex-workshop.latex.recipes": [
+                {
+                        "name": "pdflatex*2",
+                        "tools": [
+                                "pdflatex",
+                                "pdflatex"
+                        ]
+                }
+        ],
+        // Fix citation warnings in editor when using biber (wavy lines).
+        "latex-workshop.intellisense.citation.backend": "biblatex",
+        // Set bibliography indentation to four spaces (default: two).
+        "latex-workshop.bibtex-format.tab": "4 spaces",
+        // Avoid building PDF every time a file is modified or saved.
+        "latex-workshop.latex.autoClean.run": "onSave",
+        "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": "onSave",
+        "latex-workshop.latex.autoBuild.run": "onSave",
+        // Sync PDF with cursor position after compiling.
+        "latex-workshop.synctex.afterBuild.enabled": true,
+        "latex-workshop.formatting.latex": "latexindent",
+        // Automatically choose last used recipe on next build.
+        "latex-workshop.latex.recipe.default": "lastUsed"
+}

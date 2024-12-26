@@ -1,0 +1,42 @@
+{
+    "name": "project-dev",
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
+    "service": "vscode",
+    "runServices": [
+        "vscode"
+    ],
+    "forwardPorts": [
+        54112
+    ],
+    "shutdownAction": "stopCompose",
+    "workspaceFolder": "/workspace",
+    "postCreateCommand": "",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscode-icons-team.vscode-icons",
+                "valentjn.vscode-ltex",
+                "Tyriar.luna-paint",
+                "tecosaur.latex-utilities",
+                "streetsidesoftware.code-spell-checker",
+                "stkb.rewrap",
+                "shardulm94.trailing-spaces",
+                "RemiMarche.cspell-tech",
+                "nickfode.latex-formatter",
+                "ms-python.python",
+                "mhutchie.git-graph",
+                "mathematic.vscode-latex",
+                "ltex-plus.vscode-ltex-plus",
+                "james-yu.latex-workshop",
+                "hyoretsu.code-spell-checker-language-pack",
+                "gruntfuggly.todo-tree",
+                "graykode.ai-docstring",
+                "editorconfig.editorconfig",
+                "eamodio.gitlens",
+                "donjayamanne.githistory",
+            ]
+        }
+    }
+}
